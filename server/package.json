@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "scripts": {
+    "start": "ts-node src/server.ts"
+  },
+  "devDependencies": {
+    "@swc/core": "1.2.109",
+    "@trpc/server": "10.18.0",
+    "@types/node": "18.15.7",
+    "@types/ws": "8.5.4",
+    "ts-node": "10.9.1",
+    "typescript": "5.0.2",
+    "ws": "8.13.0",
+    "zod": "3.21.4"
+  },
+  "packageManager": "yarn@3.5.0",
+  "exports": {
+    ".": {
+      "import": "./src/index.ts"
+    }
+  },
+  "module": "src/index.ts",
+  "type": "module"
+}

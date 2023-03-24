@@ -1,0 +1,21 @@
+{
+  "name": "client",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "server": "workspace:*"
+  },
+  "devDependencies": {
+    "@swc/core": "1.2.109",
+    "@trpc/client": "10.18.0",
+    "@trpc/server": "10.18.0",
+    "@types/node": "18.15.7",
+    "@types/ws": "8.5.4",
+    "ts-node": "10.9.1",
+    "typescript": "5.0.2",
+    "ws": "8.13.0"
+  },
+  "packageManager": "yarn@3.5.0",
+  "type": "module"
+}

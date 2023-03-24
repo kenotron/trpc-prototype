@@ -1,0 +1,12 @@
+{
+  "name": "trpc-prototype",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "packageManager": "yarn@3.5.0",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ]
+}
